@@ -1,3 +1,6 @@
+import java.io.*;
+import java.net.*;
+import java.util.*;
 public class Server_Test_Thread_v03 extends Thread implements Server_Conns{
     private Socket socket; //Keeps track of it's socket
     public Server_Test_Thread_v03(Socket socket){
